@@ -1,0 +1,183 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(255, 228, 196), white);
+    /* background-color: rgb(255, 228, 196); */
+    height: inherit;
+    display: grid;
+    grid-template-rows: 6% 90% 4%;
+}
+
+.homeBodyBox, .freqBodyBox {
+    display: grid;
+    grid-template-rows: 6% 10% 80% 4%;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-navbar {
+    background-color: navajowhite;
+}
+
+
+nav img {
+    height: 5vh;
+}
+
+.container-fluid>a {
+    font-family: 'Metalia';
+    font-size: xxx-large;
+}
+
+.nav-link {
+    font-family: 'Handscript';
+    font-size: x-large;
+    margin-left: 1vh;
+}
+
+header {
+    font-family: 'Quikhand';
+    margin: 1vh;
+}
+
+header h1 {
+    font-size: 5vh;
+    font-style: italic;
+}
+
+header h4 {
+    font-size: 2vh;
+    font-style: italic;
+}
+
+/* main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+} */
+
+main>p {
+    margin: 2vh;
+}
+main > #carouselHome {
+    justify-self: center;
+}
+
+.carousel-item {
+    /* height: 10vh ; */
+    width: fit-content;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.storeBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.card {
+    margin-top: 2vh;
+}
+
+/* MODAL */
+.modal-body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.modal-body img{
+    max-width: 25vh;
+    max-height: 25vh;
+
+}
+
+.serverDemo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+}
+.accordion-button {
+    background-color: rgb(255, 228, 196);
+    font-family: 'Quikhand';
+}
+
+.accordion-item {
+    font-family: 'Quikhand';
+}
+
+.modal-content, .card-body, .accordion-item{
+    background-image:linear-gradient(rgb(255, 228, 196), white) ;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+}
+.modal-body > .purchaseForm {
+    display: grid;
+}
+
+.card-title {
+
+    font-family: 'Handscript','Miri';
+}
+.card-body {
+    font-family: 'Quikhand';
+}
+
+.btn-primary {
+    background-color: saddlebrown;
+}
+
+#accordionFreq {
+    margin-left: 7vh;
+    margin-right: 7vh;
+}
+
+
+@font-face {
+    font-family: 'Metalia';
+    src: url(assets/fonts/Metalia.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Handscript';
+    src: url(assets/fonts/Handscript.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Cassette';
+    src: url(assets/fonts/alphabetized\ cassette\ tapes.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Quikhand';
+    src: url(assets/fonts/Quikhand.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Miri';
+    src: url(assets/fonts/miriwin-webfont.ttf);
+}
