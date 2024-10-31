@@ -66,21 +66,41 @@ header h4 {
 main>p {
     margin: 2vh;
 }
-main > #carouselHome {
-    justify-self: center;
-}
+/* #carouselHome {
+    display: flex;
+    justify-content: center;
+} */
 
 .carousel-item {
     /* height: 10vh ; */
-    width: fit-content;
+    /* width: fit-content; */
+    display: flex;
+    justify-content: center;
+    justify-self: center;
 }
 
 .carousel-item img {
-    height: 500px;
+    height: auto;
+    max-height: 50vh;
     object-fit: cover;
+    justify-self: center;
+    max-width: 70%;
+    width: auto; /* Important to prevent stretching */
+    margin: 0 auto; 
 
 }
+.carousel-inner {
+    display: flex;
+    align-items: center;
+}
 
+/* Fix the snapping by ensuring the position is maintained during transition */
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: flex;
+    justify-content: center;
+}
 .storeBox {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
